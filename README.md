@@ -1,43 +1,24 @@
-# Rock Player
-A cross-platform video player based on `electron` and `ffmpeg`.
+# electron-rock-player
+A cross-platform video player built using Electron and FFmpeg, written in JavaScript.
 
-## Feature
+## What it does
+This project aims to create a simple, easy-to-use video player that can run on multiple platforms, including Windows, macOS, and Linux. It utilizes Electron for the GUI and FFmpeg for video playback, providing a robust and reliable playback experience.
 
-- Cross platform(Mac, Windows).
-- Plays most video files(mp4, webm, ogg, mkv, rmvb...).
-
-## Snapshot
-
-![](doc/snapshot.png)
-
-## To Use
-
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
+## Installation and Running
+To get started, clone this repository and install the required dependencies:
 ```bash
-# Clone this repository
-git clone
-# Go into the repository
-cd rockplayer
-# Install dependencies
+git clone https://github.com/your-username/electron-rock-player.git
+cd electron-rock-player
 npm install
-# Run the app
+```
+Once installed, you can run the application using:
+```bash
 npm start
 ```
-package mac app:
+This will launch the video player, allowing you to open and play video files.
 
-```bash
-npm run package:mac:app
-```
+## Example Usage
+To play a video file, simply open the application, click on the "Open File" button, and select your desired video file. The player will then start playing the video.
 
-package mac dmg:
-
-```bash
-npm run package:mac:dmg
-```
-
-package windows app:
-
-```bash
-npm run package:win32
-```
+## Contributing
+Feel free to contribute to this project by submitting pull requests or reporting issues. Your input is valuable in helping to improve the electron-rock-player.
